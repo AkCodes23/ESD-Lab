@@ -8,10 +8,11 @@ __Vectors
 ENTRY
     EXPORT Reset_Handler
 Reset_Handler
-    LDR R0, =SRC
-    LDR R1, [R0]
-    STR R1, [R0]
-STOP
-    B STOP 
-SRC DCD 0X12345678
-END
+    MOV R0,#10
+	MOV R1,#0X10
+	MOV R2,#2_1010
+	MOV R3,#4_23
+	MOV R4,#-1
+STOP B STOP
+  END
+
