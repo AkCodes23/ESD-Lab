@@ -5,14 +5,13 @@ __Vectors
     DCD Reset_Handler
     ALIGN
     AREA mycode,CODE,READONLY
-ENTRY
+    ENTRY
     EXPORT Reset_Handler
 Reset_Handler
-    MOV R0,#10
-	MOV R1,#0X10
-	MOV R2,#2_1010
-	MOV R3,#4_23
-	MOV R4,#-1
+      MOV R0,#10
+	  MOV R1,#0X10
+	  MOV R2,#2_1010
+	  MOV R3,#5_34
+	  MOV R4,#-1
 STOP B STOP
   END
-
