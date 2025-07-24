@@ -9,7 +9,7 @@ __Vectors
 	EXPORT Reset_Handler
 Reset_Handler
     LDR R0,=SRC
-	LDR R1,[R0]
+    LDR R1,[R0]
 
 STOP B STOP
 SRC DCD 0x12345678,0xABCD,0xA2B3C4
