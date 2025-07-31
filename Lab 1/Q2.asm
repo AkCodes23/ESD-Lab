@@ -14,8 +14,11 @@ Reset_Handler
    STR R2,[R1]
    LDR R3,[R0,#4]!
    LDR R4,[R1,#4]!
-   STR R5,[R3],#5
-   STR R6,[R4],#5
+   STR R5,[R3],#4
+   STR R6,[R4],#4
+   LDR R7,[R6],#4
+   LDR R8,[R5,#4]!
+   
    
 
 STOP B STOP
