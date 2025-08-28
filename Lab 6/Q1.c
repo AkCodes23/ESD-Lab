@@ -1,0 +1,17 @@
+#include <LPC17XX.h>  
+
+int i;
+int main(){
+	
+LPC_PINCON -> PINSEL0 &= 0xFF0000FF;
+LPC_GPIO0 ->FIODIR = 0x007F8000;
+
+while(1){
+LPC_GPIO0 -> FIOSET=0x007F8000;
+
+LPC_GPIO0 -> FIOCLR=0x007F8000;
+
+}
+
+
+}
