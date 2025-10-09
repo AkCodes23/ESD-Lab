@@ -5,7 +5,7 @@
 
 unsigned long int temp1=0, temp2=0,i,j ;
 unsigned char flag1 =0, flag2 =0;
-unsigned char msg[] = {"Fat nigga crocodile pizza"};
+unsigned char msg[] = {"Suraj Pookie"};
 
 void lcd_write(void);
 void port_write(void);
